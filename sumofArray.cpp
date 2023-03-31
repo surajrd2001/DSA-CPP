@@ -16,20 +16,21 @@ int arrySum(int arr[],int n)
 int main()
 {
     int t;
-    // cout<<"enter array size";
-    // cin>>t;
-    int arr[5]={1,2,3};
+    cout<<"enter array size";
+    cin>>t;
+    int arr[t];
+    // int arr[5]={1,2,3};
     
-    cout<<arr[2];
-    //  cout<<"enter array elements";
-    // for (int i = 0; i <t ; i++)
-    // {
-    //     cin>>arr[i];
-    // }
+    // cout<<arr[2];
+     cout<<"enter array elements";
+    for (int i = 0; i <t ; i++)
+    {
+        cin>>arr[i];
+    }
 
  
 
-    // cout<<arrySum(arr,t);
+    cout<<arrySum(arr,t);
     
    
    
